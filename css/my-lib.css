@@ -1,0 +1,59 @@
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+.clear-after::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.img-wrp {
+    overflow: hidden;
+}
+    .img-wrp img {
+        width: auto;
+        height: 100%;
+    }
+
+    .img-wrp-wa img { /*windth auto*/
+        width: auto;
+        height: 100%;
+    }
+
+    .img-wrp-ha img { /*heigth auto*/
+        width: 100%;
+        height: auto;
+    }
+
+/*центрирование по вертикали middline-элемента*/
+    /*auto-inline*/
+    .img-wrp-ai {
+        text-align: center;
+    }
+    .img-wrp-ai img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+
+        vertical-align: middle;
+    }
+    /*auto-absolute*/
+    .img-wrp-aa {
+        position: relative;
+    }
+    .img-wrp-aa img {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }

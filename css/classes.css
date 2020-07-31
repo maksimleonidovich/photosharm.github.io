@@ -1,0 +1,93 @@
+/*---------------------------------------------------------------*/
+/* СОКРАЩЕНИЯ СОВПАДАЮТ С АБРЕВИАТУРАМИ EMMET-CSS */
+
+/* position */
+.as-pos     { position: static; }
+.as-posr    { position: relative; }
+.as-posa    { position: absolute; }
+.as-posf    { position: fixed; }
+/* /position */
+
+/* float */
+.as-fln { float: none; }
+.as-fr  { float: right; }
+.as-fl  { float: left; }
+/* /float */
+
+/* clear */
+.as-cl { clear: both; }
+.as-cla::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* /clear */
+
+/* display */
+.as-d   { display: block; }
+.as-dn  { display: none; }
+.as-di  { display: inline; }
+.as-dib { display: inline-block; }
+/* /display */
+
+/* overflow */
+.as-oh  { overflow: hidden; }
+.as-ovv { overflow: visible; }
+.as-os  { overflow: scroll; }
+.as-oa  { overflow: auto; }
+/* overflow */
+
+/* cursor */
+.as-cup     { cursor: pointer; }
+.as-cud     { cursor: default; }
+.as-cuh     { cursor: hand; }
+.as-cuhe    { cursor: help; }
+.as-cum     { cursor: move; }
+.as-cut     { cursor: text; }
+/* /cursor */
+
+/* margin */
+.as-ma { margin: auto; }
+.as-m0 { margin: 0; }
+/* /margin */
+
+/* padding */
+.as-p0 { padding: 0; }
+/* /padding */
+
+/* width */
+.as-wa      { width: auto; }
+.as-w100    { width: 100%; }
+/* /width */
+
+/* height */
+.as-ha      { height: auto; }
+.as-h100    { height: 100%; }
+/* /height */
+
+/* font-weight */
+.as-fwn { font-weight: normal; }
+.as-fwb { font-weight: bold; }
+/* /font-weight */
+
+/* font-style */
+.as-fsn { font-style: normal; }
+.as-fsi { font-style: italic; }
+/* /font-style */
+
+/* vertical-align */
+.as-va      { vertical-align: top; }
+.as-vm      { vertical-align: middle; }
+.as-vabl    { vertical-align: baseline; }
+.as-vb      { vertical-align: bottom; }
+.as-vs      { vertical-align: sub; }
+/* /vertical-align */
+
+/* text-align */
+.as-ta,
+.as-tal { text-align: left; }
+.as-tac { text-align: center; }
+.as-tar { text-align: right; }
+.as-taj { text-align: justify; }
+/* /text-align */
+/*---------------------------------------------------------------*/
